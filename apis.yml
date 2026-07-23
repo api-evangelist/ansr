@@ -1,8 +1,30 @@
 aid: ansr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ansr.png
 name: ANSR
-description: 'ANSR is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  ANSR Global is a workforce and operations company that helps enterprises build, manage, and scale
+  Global Capability Centers (GCCs) — captive technology and shared-services hubs, most often in India
+  and other emerging markets. Its end-to-end offering spans four areas: Talent Solutions (AI-driven
+  recruiting, sourcing, onboarding, and talent management), Workspace (managed, customized office space
+  and workplace strategy), Business Operations (payroll, HR, employer-of-record, compliance, legal, and
+  finance/tax), and Research & Advisory (organizational design, capability planning, and market
+  intelligence). ANSR engages clients through Global Capability Center subscriptions,
+  Build-Operate-Transfer arrangements, and Managed Teams, and operates a proprietary workforce platform,
+  1Wrk. The company reports 20+ years of operations, 210+ global centers established, 225,000+
+  professionals hired, and 14M+ square feet of managed workspace. ANSR is a portfolio company of Accel.
+  It is a business-services provider and does not publish a public API, developer portal, or developer
+  documentation; this profile captures its public web surface and web-domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ansr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +38,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Enterprise
+- Global Capability Centers
+- Workforce
+- Talent
+- Business Operations
+- Employer of Record
+- Offshoring
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.ansr.com
+  url: https://www.ansr.com
+- type: Blog
+  url: https://ansr.com/blog/
+- type: PrivacyPolicy
+  url: https://ansr.com/privacy-policy/
+- type: Support
+  url: https://ansr.com/contact-us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ansr-global/
+- type: Twitter
+  url: https://x.com/ansrglobal/
+- type: LLMsTxt
+  url: llms/ansr-llms.txt
+- type: DomainSecurity
+  url: security/ansr-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
