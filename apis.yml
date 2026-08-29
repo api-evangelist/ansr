@@ -37,6 +37,9 @@ description: >-
   It is a business-services provider and does not publish a public API, developer portal, or developer
   documentation; this profile captures its public web surface and web-domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ansr/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is a business-services provider and does not publish a public API, developer portal, or developer documentation; this profile captures its public web surface and web-domain security posture."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
